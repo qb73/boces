@@ -1,0 +1,168 @@
+/* CSS Document */
+
+/*
+Color Palette:
+#00568c - Blue
+#008e66 - Green
+#ffffff - White
+#cccccc - Grey
+#00568c99 - Blue Fade
+#008e6699 - Green Fade
+*/
+
+
+
+/* CSS Reset & Body Styles */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #ffffff; /* temporary */
+}
+
+
+
+/* Header Styles */
+
+header {
+	background-color: #ffffff; /* White */
+	padding: 60px 45px;
+	text-align: left;
+}
+
+.logo {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+
+h1, blockquote {
+	margin-left: 750px;
+}
+
+h1 {
+	color: #00568c; /* Blue */
+	font-size: 5.25em;
+}
+
+blockquote {
+	color: #008e66; /* Green */
+	font-size: 3.25em;
+}
+
+
+
+/* Top Navifation Styles */
+
+nav {
+	background-color: #008e66; /* Green */
+	padding: 45px;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: #00568c; /* Blue */
+	text-decoration: none;
+	list-style-type: none;
+	padding: 45px 70px;
+	text-align: center;
+	font-size: 2em;
+}
+
+nav a:hover {
+	color: #008e6699; /* Green */
+	background-color: #00568c99; /* Blue Fade */
+}
+
+/*  Main Styles */
+
+main {
+	background-color: #cccccc; /* Gray */
+	padding: 100px 50px;
+	max-height: 800px;
+}
+
+main ul {
+	color: #008e66; /* Green */
+	padding: 5px;
+	margin-left: 50px;
+	font-size: 1.25em;
+}
+
+img {
+	float: right;
+}
+
+
+h2, h3, p {
+	color: #008e66; /* Green */
+	background-color: #cccccc; /* Gray */
+	padding: 10px 50px;
+}
+
+h2 {
+	font-size: 2.75em;
+}
+
+h3 {
+	padding-top: 40px;
+	font-size: 2em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+
+/* Bottom Naviagation Styles */
+
+
+
+/* Footer Styles */
+
+footer {
+	background-color: #ffffff; /* White */
+	max-height: 200px;
+}
+
+h4, h5, h4 a {
+	color: #00568c; /* Blue */
+}
+
+h4, h5 {
+	padding: 20px 35px 30px 35px; /* TRBL *? */
+}
+
+h4 {
+	 text-align: center;
+}
+
+h4 a {
+	text-decoration: none;
+}
+
+h4 a:hover {
+	color: #008e66; /* Green */
+}
+
+h5 {
+	text-align: left;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+
+
+/* Omission of tags */
+
+table {
+	
+}
